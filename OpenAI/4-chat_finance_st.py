@@ -122,7 +122,7 @@ def exibir_grafico_json(json_str):
     except Exception as e:
         st.error(f"Erro ao exibir gráfico: {e}")
 
-# === Streamlit ===
+# === Streamlit ======
 st.set_page_config(page_title="Chatbot Financeiro", page_icon="📊")
 
 st.title("🤖 Chatbot de Cotações da B3 📈")
